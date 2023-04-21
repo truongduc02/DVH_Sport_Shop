@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dụng cụ thể thao</title>
+    <link rel="stylesheet" type="text/css" href="styletrangchu.css">
+    <link rel="stylesheet" href="./Nhóm VĐH_Trang web quần áo thiết bị thể thao/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+
+<body style="background-color: antiquewhite;">
+    <header style="background-color: orange;">
+        <div class="boss">
+            <div class="class1">
+                <div class="img">
+                    <a href="trangchu.html"><img class="logo" src=hinh/logo.jpg></a>
+                    <p style="font-size: 15px; font-weight: bold; font-family: 'Courier New', Courier, monospace;">Sport clothes and tools</p>
+                </div>
+                <div class="icon-search">
+                </div>
+                <div class="search">
+                    <input class="search2" style="font-size: 15px; display: inline-block; text-indent: 3%;" type="text" id="search" placeholder="Tìm kiếm sản phẩm...." oninput="valueProductItem()" />
+                    <button class="search1" value="find" type="submit" style="height: 30px; width: 70px;"><img style="width: 70px; height: 30px;" src="https://media.istockphoto.com/vectors/icon-search-logo-design-universal-business-social-media-vector-id995577016?k=20&m=995577016&s=170667a&w=0&h=_kwoYxk1Hu551vgDt4sSBOLtICXGe2Ze0xl_kXlqZkI="></button>
+                </div>
+                <div class="menu">
+                    <br>
+                    <ul>
+                        <li><a class="menu_header main" href="trangchu.html">Trang chủ</a></li>
+                        <li><a class="menu_header boy" href="thoitrangnam.html">Đồ thể thao nam</a>
+                            <ul class="menu1">
+                                <li> <a class="menu_header" href="thoitrangnam.html#pant_male">Quần</a></li>
+                                <li><a class="menu_header" href="thoitrangnam.html#shirt_male">Áo</a></li>
+                                <li><a class="menu_header" href="thoitrangnam.html#shoe_male">Giày</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="menu_header girl" href="thoitrangnu.html">Đồ thể thao nữ</a>
+                            <ul class="menu1">
+                                <li> <a class="menu_header" href="thoitrangnu.html#pant_female">Quần</a></li>
+                                <li><a class="menu_header" href="thoitrangnu.html#shirt_female">Áo</a></li>
+                                <li><a class="menu_header" href="thoitrangnu.html#shoe_female">Giày</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="menu_header item" href="dungcuthethao.html">Dụng cụ thể thao</a></li>
+                        <li>
+                            <a class="cart" href="cart.html"> </i>Giỏ hàng
+                                <p>(<span>0</span>)</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dangnhap-header">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <div class="classItem"></div>
+    <div class="hide active">
+        <div class="List-product">
+            <img class="banner-item" src="https://toplistdanang.com/wp-content/uploads/2021/05/dung-cu-the-thao-Da-Nang-5.jpg">
+            <br>
+            <h1 style="text-align: center;">Dụng cụ thể thao</h1> <br>
+            <div class="devide">
+                <div class="row">
+                    <div class="row1">
+                        <div class="middle_title">
+                            <h2>
+                                <a style="text-decoration: none; font-size: 30px;" href="dungcuthethao.html" title="Gym" id="gym_yoga">Gym - Dụng cụ thể thao</a>
+                                <hr>
+                                <hr>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="chayItem()">Load</button>
+            <div class="classcurrent">
+
+            </div>
+            <div class="classnew">
+
+            </div>
+        </div>
+    </div>
+    <div class="show">
+        <h1>Kết quả tìm kiếm sản phẩm của bạn</h1>
+        <div class="inputPrice">
+            <label for="minPrice">Từ</label>
+            <input type="text" id="minPrice">
+        </div>
+        <div class="inputPrice">
+            <label for="maxPrice">Đến</label>
+            <input type="text" id="maxPrice" oninput="searchPriceItem()">
+        </div>
+        <div class="showitem">
+
+        </div>
+    </div>
+    <br> <br>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1>
+                    Các chính sách
+                </h1>
+                <p><a class="menu_footer" href="#">Chính sách bảo mật</a></p>
+                <p><a class="menu_footer" href="#">Hoàn trả lại</a></p>
+                <p><a class="menu_footer" href="#">Giảm giá</a></p>
+                <p><a class="menu_footer" href="#">Điều khoản sử dụng</a></p>
+            </div>
+
+            <div class="col">
+                <h1>
+                    Thương hiệu
+                </h1>
+                <p><a class="menu_footer" href="https://www.adidas.com.vn/vi">Adidas</a></p>
+                <p><a class="menu_footer" href="https://www.nike.com/vn/">Nike</a></p>
+                <p><a class="menu_footer" href="https://lining.com.vn/">Li-Ning</a></p>
+                <p><a class="menu_footer" href="https://us.puma.com/us/en/home">Puma</a></p>
+            </div>
+
+            <div class="col">
+                <h1>
+                    Theo dõi tụi mình tại
+                </h1>
+                <p><a class="menu_footer" href="https://www.facebook.com">Facebook</a></p>
+                <p><a class="menu_footer" href="https://www.youtube.com">Youtube</a></p>
+                <p><a class="menu_footer" href="https://www.instagram.com">Instagram</a></p>
+                <p><a class="menu_footer" href="https://twitter.com/">Twitter</a></p>
+            </div>
+
+            <div class="col">
+                <h1>Tải ứng dụng tại</h1>
+                <a href="#"><img style="width: 160px; height: 65px;" src="hinh/apple.png"></a>
+            </div>
+            <div class="col">
+                <h1>Thông tin</h1> <br>
+                <p style="font-size: 19px;">Địa chỉ: 273, An Dương Vương, Quận 5, Tp.HCM</p>
+                <p style="font-size: 19px;">Số điện thoại: 0123456789</p>
+            </div>
+            <div>
+                Copyright 2021 &copy; <strong>VĐHSHOP.VN</strong>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/search.js"></script>
+<script src="js/javacript.js"></script>
+<script src="js/admin.js"></script>
+
+</html>

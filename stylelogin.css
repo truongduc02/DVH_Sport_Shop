@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background: url(https://hoaidoan.vn/wp-content/uploads/2021/03/background-dep-5.png);
+    background-size: cover;
+}
+
+.form-text {
+    margin: 45pt;
+}
+
+.adminlogin {
+    margin-top: 25px;
+    margin-left: 405px;
+    font-size: 55px;
+}

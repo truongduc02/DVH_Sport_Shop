@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styleadmin.css" />
+</head>
+
+<body>
+    <div class="showidadmin"></div>
+    <div class="main">
+        <div>
+            <div class="header">
+                <a href="trangchu.html">
+                    <img src="hinh/logo.jpg" alt="" />
+                </a>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="quanlysanpham.html">Quản lý sản phẩm</a></li>
+                    <li><a href="quanlynguoidung.html">Quản lý người dùng</a></li>
+                    <li><a href="quanlydonhang.html">Quản lý đơn hàng</a></li>
+                </ul>
+            </div>
+            <div class="head">
+                <h1>Quản Lý Người Dùng</h1>
+                <hr />
+                <button onclick="showuser()">show</button>
+            </div>
+        </div>
+        <div class="panel" style="margin-top: 20px">
+            <div class="panel-heading"></div>
+            <div class="panel-body">
+                <table class="table" style="margin-left: -255px;" id="database1">
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/quanly.js"></script>
+<script src="js/loginadmin.js"></script>
+<script src="js/adminlogout.js"></script>

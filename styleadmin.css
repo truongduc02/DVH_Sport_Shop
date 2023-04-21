@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab_1 input {
+    font-weight: bold;
+    font-size: 15px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    display: block;
+    padding: 7px;
+}
+
+.tab_1 button {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+    width: 20%;
+    background-color: #636e72;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.panel {
+    width: 80%;
+    margin: 0 auto;
+    border: solid #171e22 1px;
+    margin-bottom: 300px;
+}
+
+.panel-heading {
+    background-color: #636e72;
+    padding: 10px;
+}
+
+.panel-body {
+    padding: 0 10px 0 10px;
+}
+
+.panel-body label {
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr {
+    border-bottom: solid #303e47 1px;
+}
+
+h1 {
+    text-align: center;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.main {
+    border: 2px solid #636e72;
+    background-color: white;
+}
+
+.head {
+    margin-top: 50px;
+    padding: 10px 70px 10px 70px;
+    display: flex;
+}
+
+.head hr {
+    width: 1000px;
+    background-color: #171e22;
+    height: 2px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    height: 300px;
+    width: 600px;
+}
+
+.menu-bar {
+    background-color: #636e72;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin: 5px 80px 5px 80px;
+    padding: 10px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-bar ul li:hover {
+    background-color: #171e22;
+    border-radius: 20px;
+}
+
+.addCart {
+    max-width: 650px;
+    justify-content: space-around;
+    margin-left: 35pt;
+    margin-bottom: 50px;
+}
+
+.cartHeader {
+    font-weight: bold;
+    width: 210%;
+    max-width: 1250px;
+    display: flex;
+    margin: 45pt;
+    justify-content: flex-start;
+    border-bottom: 4px solid black;
+    margin: 45pt 55pt 45pt 55pt;
+}
+
+.quatityCart button {
+    height: 20px;
+    width: 20px;
+}
+
+.cartname {
+    width: 200px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #303e47;
+    color: white;
+}
+
+.cartHeader .titleCart1 {
+    display: flex;
+}
+
+.titleCart1 h3 {
+    margin-left: 70px;
+}
+
+.titleCart {
+    text-align: center;
+    width: 140%;
+    font-size: 15px;
+    margin: auto;
+}
+
+.priceCart {
+    width: 55%;
+    font-size: 15px;
+    margin-left: 75pt;
+}
+
+.quatityCart {
+    width: 45%;
+    font-size: 15px;
+    margin-left: -20pt;
+}
+
+.quatityCart .lessCart {
+    margin-left: 35pt;
+    width: 30px;
+    height: 30px;
+}
+
+.quatityCart .moreCart {
+    margin-left: 5pt;
+    width: 30px;
+    height: 30px;
+}
+
+.totalCart {
+    padding-right: 70px;
+    width: 55%;
+    font-size: 15px;
+    text-align: right;
+}
+
+.totalCart1 {
+    padding-right: 50px;
+    width: 55%;
+    font-size: 15px;
+    text-align: right;
+}
+
+.cartHeader img {
+    width: 80px;
+    height: 80px;
+}
+
+.titleCart1 {
+    width: 125%;
+}
+
+.baskettotal {
+    display: flex;
+    justify-content: flex-end;
+    width: 1320px;
+}
+
+.baskettotal span {
+    font-size: 15px;
+}
+
+.delete {
+    width: 50px;
+}
+
+.table1 {
+    width: 1500px;
+}

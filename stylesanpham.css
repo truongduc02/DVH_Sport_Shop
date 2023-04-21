@@ -1,0 +1,37 @@
+body {
+    background: url(https://thanhlycuongphat.com/wp-content/uploads/2019/01/H%C3%ACnh-n%E1%BB%81n-m%C3%A1y-t%C3%ADnh-Gradient-m%C3%A0u-x%C3%A1m.png);
+    background-size: cover;
+}
+
+.namesanpham {
+    text-align: center;
+}
+
+.thongtinproduct {
+    display: flex;
+}
+
+.productchitiet {
+    margin-top: 105px;
+}
+
+.namesanpham {
+    margin-bottom: 45px;
+}
+
+.thongtin p {
+    font-size: 25px;
+    margin-left: 105px;
+}
+
+.addGioHang button {
+    margin: 105px 0 0 105px;
+    width: 200px;
+    color: blue;
+}
+
+.hinhanhsanpham img {
+    width: 500px;
+    height: 500px;
+    margin-left: 5px;
+}

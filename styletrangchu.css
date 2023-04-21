@@ -1,0 +1,824 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hide.active {
+    display: block;
+}
+
+.show {
+    display: none;
+}
+
+.show.active {
+    display: block;
+}
+
+.show h1 {
+    text-align: center;
+    color: blue;
+}
+
+.show span {
+    font-size: 25pt;
+}
+
+body {
+    width: 1583px;
+}
+
+header {
+    width: 1596px;
+}
+
+.boss {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1540px;
+}
+
+.class1 {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.img {
+    width: 50%;
+    margin-left: 65px;
+}
+
+img.logo {
+    width: 170px;
+}
+
+.menu {
+    margin-left: -330px;
+    width: 110%;
+}
+
+ul {
+    float: left;
+    margin-left: 0px;
+    list-style: none;
+    flex-wrap: nowrap;
+    margin: 70px 0 0 0;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+ul.menu1 li {
+    padding: 15px 0 0 15px;
+    float: none;
+    display: none;
+    background-color: aliceblue;
+}
+
+ul.menu1 {
+    position: absolute;
+    margin-top: 0px;
+    width: 10%;
+    z-index: 9999;
+}
+
+.menu_header {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu_headerBill {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+
+.menu_headerLogin {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+
+.menu_headerRegister {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+
+.menu_headerBill.active1 {
+    display: block;
+}
+
+.menu_headerLogin.active1 {
+    display: block;
+}
+
+.menu_headerRegister.active1 {
+    display: block;
+}
+
+.menu_footer {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo {
+    width: 25%;
+}
+
+.menu ul li:hover ul.menu1 li {
+    display: block;
+}
+
+.search input {
+    width: 405pt;
+    height: 28pt;
+}
+
+.search {
+    margin-left: 0pt;
+    margin-top: 15pt;
+}
+
+.icon-search {
+    margin-left: -85pt;
+    margin-top: 22pt;
+}
+
+
+/* img */
+
+.product-image {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* banner */
+
+.banner {
+    width: 1400px;
+    position: relative;
+    margin: 40px 0 0 90px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    color: rgb(204, 173, 133);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(161, 159, 159);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: antiquewhite;
+}
+
+
+/* internet */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.product {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 40px 0 0 70px;
+    text-align-last: center;
+}
+
+.product-hot {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 0 0 170px;
+    text-align-last: center;
+}
+
+.product-hot1 {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 0 0 170px;
+    text-align-last: center;
+}
+
+.product-hot2 {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 0 0 170px;
+    text-align-last: center;
+}
+
+h2 {
+    color: blue;
+}
+
+.price-new,
+.price {
+    font-size: 23px;
+}
+
+.confirm {
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 35pt;
+}
+
+.col-1 {
+    flex-basis: 30%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.col-1 img {
+    width: 50%;
+}
+
+.col-1 p {
+    font-size: 13pt;
+}
+
+.website .container {
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+
+/* footer */
+
+footer {
+    background: darkorange;
+    color: #fff;
+    width: 1600px;
+}
+
+footer h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+footer img {
+    width: 30%;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+
+/*end footer*/
+
+
+/*responsive for iphone*/
+
+@media (max-width: 739px) {
+    header {
+        width: 320px;
+    }
+    .boss {
+        width: 320px;
+    }
+    /* img */
+    header .boss .class1 .img img {
+        width: 70%;
+    }
+    header .boss .class1 .img {
+        margin-left: 15pt;
+        margin-top: 95pt;
+    }
+    /* .icon-search */
+    .icon-search {
+        height: 25pt;
+        margin-left: -51pt;
+    }
+    .search input {
+        width: 185pt;
+    }
+    /* menu */
+    .menu {
+        margin-left: -55pt;
+    }
+    /* banner */
+    .banner {
+        width: 92%;
+        margin-left: 8pt;
+    }
+    .dot1 {
+        width: 241pt;
+    }
+    .dot {
+        width: 3%;
+    }
+    /* title */
+    .title {
+        width: 290pt;
+        margin-left: -25pt;
+    }
+    .title h1 {
+        font-size: 10pt;
+    }
+    /* .product-hot */
+    .product-hot {
+        margin-left: 15pt;
+    }
+    .product-hot1 {
+        margin-left: 65pt;
+        width: 197px;
+    }
+    .product-hot2 {
+        margin-left: 55pt;
+        width: 197px;
+    }
+    /* body */
+    body {
+        width: 240pt;
+    }
+    /* product */
+    .product-image {
+        width: 50%;
+        height: 50%;
+    }
+    .product {
+        margin-left: 15pt;
+    }
+    /* list product*/
+    .row {
+        height: 100px;
+    }
+    /* footer */
+    footer {
+        height: 800px;
+        margin-top: 0%;
+    }
+    footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    footer .row .col p a {
+        font-size: 11pt;
+    }
+    /* devide */
+    .devide {
+        height: 100pt;
+    }
+    /* .website */
+    .website {
+        height: 600px;
+        margin-left: -55pt;
+    }
+    .container {
+        height: 600px;
+    }
+    .website .container .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* banner */
+    .List-product .banner-item {
+        width: 300px;
+        height: 200px;
+    }
+    .List-product .banner-girl {
+        width: 320px;
+        height: 290px;
+    }
+    .List-product .banner-boy {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+/* reponsive for ipad */
+
+@media (min-width:739px) and (max-width: 970px) {
+    header {
+        width: 770px;
+    }
+    .boss {
+        width: 770px;
+    }
+    /* img */
+    header .boss .class1 .img img {
+        width: 110%;
+    }
+    header .boss .class1 .img {
+        margin-left: 15pt;
+        margin-top: 95pt;
+    }
+    /* .icon-search */
+    .icon-search {
+        height: 25pt;
+        margin-left: -51pt;
+    }
+    .search input {
+        width: 355pt;
+    }
+    /* menu */
+    .menu {
+        margin-left: -65pt;
+    }
+    .menu li {
+        margin: 7pt;
+    }
+    /* banner */
+    .banner {
+        width: 92%;
+        margin-left: 18pt;
+    }
+    .dot1 {
+        width: 191pt;
+        margin-left: 200pt;
+    }
+    .dot {
+        width: 7%;
+    }
+    /* title */
+    .title {
+        width: 490pt;
+        margin-left: 55pt;
+    }
+    .title h1 {
+        font-size: 23pt;
+    }
+    /* .product-hot */
+    .product-hot {
+        margin-left: 10pt;
+    }
+    .product-hot1 {
+        margin-left: 105pt;
+        width: 197px;
+    }
+    .product-hot2 {
+        margin-left: 15pt;
+        width: 197px;
+    }
+    /* body */
+    body {
+        width: 580pt;
+    }
+    /* product */
+    .product-image {
+        width: 220px;
+        height: 220px;
+    }
+    .product {
+        width: 290px;
+        height: 290px;
+        margin-left: 45pt;
+    }
+    /* list product*/
+    .row {
+        height: 100px;
+    }
+    /* footer */
+    footer {
+        height: 550px;
+        margin-top: 0%;
+    }
+    footer .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    footer .row .col p a {
+        font-size: 11pt;
+    }
+    /* devide */
+    .devide {
+        height: 100pt;
+    }
+    /* .website */
+    .website {
+        height: 400px;
+        margin-left: -15pt;
+    }
+    .container {
+        height: 400px;
+    }
+    .website .container .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* banner */
+    .List-product .banner-item {
+        width: 760px;
+        height: 500px;
+    }
+    .List-product .banner-girl {
+        width: 760px;
+        height: 500px;
+    }
+    .List-product .banner-boy {
+        width: 750px;
+        height: 500px;
+    }
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+footer .row .col {
+    flex-basis: 20%;
+}
+
+.banner-girl {
+    width: 1530px;
+}
+
+.banner-boy {
+    width: 95%;
+    margin: 8px;
+}
+
+.banner-item {
+    width: 1500px;
+    height: 500px;
+    margin: 20px 0 0 10px;
+}
+
+
+/* add cart */
+
+.addCart {
+    max-width: 650px;
+    justify-content: space-around;
+    margin-left: 35pt;
+}
+
+.cartHeader {
+    width: 210%;
+    max-width: 1350px;
+    display: flex;
+    margin: 45pt;
+    justify-content: flex-start;
+    border-bottom: 4px solid black;
+    margin: 45pt 55pt 45pt 55pt;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.titleCart {
+    width: 175%;
+    font-size: 25pt;
+    margin: auto;
+}
+
+.priceCart {
+    width: 55%;
+    font-size: 25pt;
+    margin-left: 75pt;
+}
+
+.quatityCart {
+    width: 45%;
+    font-size: 25pt;
+    margin-left: -20pt;
+}
+
+.quatityCart .lessCart {
+    margin-left: 35pt;
+    width: 30px;
+    height: 30px;
+}
+
+.quatityCart .moreCart {
+    margin-left: 5pt;
+    width: 30px;
+    height: 30px;
+}
+
+.totalCart {
+    width: 55%;
+    font-size: 25pt;
+}
+
+.cartHeader img {
+    width: 80px;
+    height: 80px;
+}
+
+.titleCart1 {
+    width: 125%;
+}
+
+.baskettotal {
+    display: flex;
+    justify-content: flex-end;
+    width: 1380px;
+}
+
+.baskettotal span {
+    font-size: 25pt;
+}
+
+.pay {
+    margin-left: 525pt;
+}
+
+.pay button {
+    width: 100px;
+    height: 50px;
+}
+
+
+/* nút tăng giảm */
+
+.giam {
+    width: 19px;
+    height: 20px;
+}
+
+.tang {
+    width: 19px;
+    height: 20px;
+}
+
+.delete {
+    width: 49px;
+    height: 20px;
+}
+
+
+/* id account */
+
+.idaccount {
+    float: right;
+    margin-right: 45px;
+}
+
+
+/* thongtin */
+
+.thongtinnguoidung {
+    display: flex;
+}
+
+.tk-nguoidung {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.mk-nguoidung {
+    margin-left: 135px;
+    font-size: 25px;
+}
+
+.sdt-nguoidung {
+    margin-left: 135px;
+    font-size: 25px;
+}
+
+.gmail-nguoidung {
+    margin-left: 135px;
+    font-size: 25px;
+}
+
+
+/* don hang */
+
+.donhang {
+    max-width: 650px;
+    justify-content: space-around;
+    margin-left: 35pt;
+}
+
+.cartHeaderasd {
+    width: 210%;
+    max-width: 1350px;
+    display: flex;
+    margin: 45pt;
+    justify-content: flex-start;
+    border-bottom: 4px solid black;
+    margin: 45pt 55pt 45pt 55pt;
+}
+
+.titleCartasd {
+    width: 175%;
+    font-size: 25pt;
+    margin: auto;
+}
+
+.priceCartasd {
+    width: 55%;
+    font-size: 25pt;
+    margin-left: 75pt;
+}
+
+.quatityCartasd {
+    width: 45%;
+    font-size: 25pt;
+    margin-left: -20pt;
+}
+
+.totalCartasd {
+    width: 55%;
+    font-size: 25pt;
+}
+
+
+/* dung cu */

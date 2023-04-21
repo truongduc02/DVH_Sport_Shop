@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styleadmin.css" />
+</head>
+
+<body onload="show()">
+    <div class="showidadmin"></div>
+    <div class="main">
+        <div>
+            <div class="header">
+                <a href="trangchu.html">
+                    <img src="hinh/logo.jpg" alt="" />
+                </a>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="quanlysanpham.html">Quản lý sản phẩm</a></li>
+                    <li><a href="quanlynguoidung.html">Quản lý người dùng</a></li>
+                    <li><a href="quanlydonhang.html">Quản lý đơn hàng</a></li>
+                </ul>
+            </div>
+            <div class="head">
+                <h1>Quản Lý Sản Phẩm</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="onload"><button onclick="loading()" style="width: 200px; height: 200px;">onload</button>
+            <button onclick="Reset()" style="width: 200px; height: 200px;">Reset</button></div>
+        <div class="tab">
+            <div class="tab_1">
+                <div>
+                    Id: <input type="text" id="id" /> Img :
+                    <input type="file" id="imagefile" accept="image/gif ,image/jpeg, img/png" /><img id="output" width="100" height="100" />
+                    <br /> Tên sản phẩm : <input type="text" id="name" /> Giá cũ :
+                    <input type="text" id="priceOld" /> Giá mới : <input type="text" id="priceNew" />
+                </div>
+                <div id="loca">
+                    <button id="save" onclick="add();">Thêm</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel" style="margin-top: 20px">
+            <div class="panel-heading"></div>
+            <div class="panel-body">
+                <table class="table" id="database"></table>
+            </div>
+            <img src="" width="" height="" />
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/admin.js"></script>
+<script src="js/loginadmin.js"></script>
+<script src="js/adminlogout.js"></script>
